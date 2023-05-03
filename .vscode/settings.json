@@ -1,9 +1,10 @@
 {
   "editor.bracketPairColorization.enabled": true,
-  "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace",
-  "editor.fontLigatures": false,
-  "editor.fontSize": 22,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "'MesloLGS Nerd Font','CaskaydiaCove NF','RobotoMono Nerd Font','UbuntuMono Nerd Font','SauceCodePro NF','FiraMono Nerd Font','DroidSansM Nerd Font', ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 20,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.lineNumbers": "on",
@@ -15,10 +16,15 @@
   "emmet.triggerExpansionOnTab": true,
   "explorer.openEditors.visible": 0,
   "files.autoSave": "afterDelay",
+  "files.eol": "\n",
   "screencastMode.onlyKeyboardShortcuts": true,
   "terminal.integrated.fontSize": 18,
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "github.copilot.enable": {
+    "*": true,
+    "python": false
+  }
 }
